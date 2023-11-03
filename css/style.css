@@ -26,6 +26,12 @@ body{
     width: 100%;
     height: 100%;
 }
-#pool {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
+}
+#pool {
+    
 }
