@@ -26,9 +26,17 @@ body{
     width: 100%;
     height: 100%;
 }
+#ochikin {
+    margin: 100px auto 0px auto;
+    top: 50px;
+    left: 1078px;
+    width: 5%;
+    border: 3px solid black;
+    border-radius: 50%;
+}
 h1 {
     display: block;
-    margin: 50px auto 50px auto;
+    margin: 10px auto 40px auto;
     width: 50%;
     text-align: center;
 }
