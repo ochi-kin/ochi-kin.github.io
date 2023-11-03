@@ -32,21 +32,24 @@ h1 {
     width: 50%;
     text-align: center;
 }
-img {
+a {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 #yjh {
     margin-bottom: 8px;
 }
-
 .borderless {
     margin-bottom: 50px;
 }
-
 footer {
     height: 25px;
 }
