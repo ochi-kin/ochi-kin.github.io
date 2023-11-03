@@ -27,12 +27,17 @@ body{
     height: 100%;
 }
 #ochikin {
-    margin: 100px auto 0px auto;
-    top: 50px;
-    left: 1078px;
+    margin: 50px auto 0px auto;
     width: 10%;
     border: 5px solid #A3D8E4;
     border-radius: 50%;
+}
+#blade {
+    position: fixed;
+    width: 5%;
+    top: 87vh;
+    left: 0.5vw;
+    z-index: 100;
 }
 h1 {
     display: block;
@@ -40,11 +45,20 @@ h1 {
     width: 50%;
     text-align: center;
 }
+.zoom {
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.7s; 
+    -webkit-transition-timing-function: ease; 
+}
+.zoom:hover {
+    transform: scale(1.05);
+}
 a {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    overflow: hidden;
 }
 img {
     display: block;
@@ -53,6 +67,7 @@ img {
     width: 100%;
 }
 #yjh {
+    margin-top: -30px;
     margin-bottom: 8px;
 }
 .borderless {
